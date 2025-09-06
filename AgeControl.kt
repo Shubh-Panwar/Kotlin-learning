@@ -11,10 +11,11 @@ fun main(){
 
     if (age<18){
         println("you are not welcome here")
-    }else if (age>=40) {
+    }   else if (age>=40) {
         println("Your are too old, Please go home")
-    } else
-        println("Welcome, You can enter into the Club.")
 
+    } else {
+        println("Welcome, You can enter into the Club.")
+    }
 
 }
