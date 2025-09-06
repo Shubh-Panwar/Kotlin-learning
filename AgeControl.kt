@@ -9,13 +9,13 @@ fun main(){
     val enteredvalue=readln()
     val age=enteredvalue.toInt()
 
-    if (age<18){
-        println("you are not welcome here")
+    if (age in 18..<40) {
+        println("Welcome, You can enter into the Club.")
     }   else if (age>=40) {
         println("Your are too old, Please go home")
 
     } else {
-        println("Welcome, You can enter into the Club.")
+        println("You are under-aged")
     }
 
 }
